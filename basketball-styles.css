@@ -1,0 +1,129 @@
+@import url('https://googleapis.com');
+body{
+    background-color:black;
+    font-family: 'Montserrat', 'Inter', 'Satoshi', 'Paramount';
+}
+#container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #0000;
+    border-right: solid 2px #FFFDD0;
+    border-left: solid 2px #FFFDD0;
+    border-bottom: solid 2px #FFFDD0;
+}
+/*TEXT TAG STYLES*/
+h1{
+    font-family: 'Montserrat', 'Inter', 'Satoshi', 'Paramount';
+    font-size: 76px;
+    color: #D3AF37;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: #D3AF37;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26;
+    color: #D3AF37;
+    text-align: center;
+}
+h3{
+    font-family: 'Inter';
+    font-size: 20;
+    color: #D3AF37;
+    text-align: left;
+}
+p{
+    font-family: 'Satoshi';
+    font-size: 16;
+    color: #FFFDD0;
+    text-align: left;
+}
+h4{
+    font-family: 'Paramount';
+    font-size: 2;
+    color: #FFFDD0;
+    font-weight: lighter;
+}
+/*MENU SECTION*/
+#menu {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFDD0;
+    border: 2px solid #D3AF37;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+#menu li{
+    background-color: #FFFDD0;
+    border: 1px solid #D3AF37;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+#menu a:link, #menu a:visited{
+    color: #ad8d21;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover, #menu a:active{
+    color: #D3AF37;
+    text-decoration: underline;
+}
+/*MAIN SECTION*/
+#main{
+    margin-left:20px;
+    margin-right: 20px;
+}
+#main p{
+    font-size: 16;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#main a:link, #main a:visited{
+    color: #ad8d21;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#main a:hover, #main a:active{
+    color: #D3AF37;
+    text-decoration: underline;
+}
+/*FOOTER SECTION*/
+#footer{
+    clear: both;
+    justify-content: center;
+    background-color: #FFFDD0;
+    border: 2px solid #D3AF37;
+}
+#footer p{
+    color: #D3AF37;
+    text-align: center;
+    font-weight: bold;
+}
+#footer a:link, #footer a:visited{
+    color: #ad8d21;
+    text-decoration: underline;
+}
+#footer a:hover, #footer a:active{
+    color: #D3AF37;
+    text-decoration: underline;
+}
+/*CLASS STYLES*/
+.leftfloat {
+    float: left;
+    margin: 0 16px 16px 0;
+    border: 2px solid #D3AF37;
+}
